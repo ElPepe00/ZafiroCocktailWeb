@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cóctel Innovación | Zafiro Hotels</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
+    rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            zafiro: {
+              navy: '#0B1C2E',    // Azul corporativo Zafiro
+              sand: '#D4C3A3',    // Dorado/Arena sutil
+              light: '#F8F9FA',   // Gris perla de fondo
+            }
+          },
+          fontFamily: {
+            serif: ['"Playfair Display"', 'serif'],
+            sans: ['Montserrat', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    .hotspot-pulse {
+      box-shadow: 0 0 0 0 rgba(212, 195, 163, 0.7);
+      animation: pulse-ring 2s infinite;
+    }
+
+    @keyframes pulse-ring {
+      0% {
+        box-shadow: 0 0 0 0 rgba(212, 195, 163, 0.7);
+      }
+
+      70% {
+        box-shadow: 0 0 0 15px rgba(212, 195, 163, 0);
+      }
+
+      100% {
+        box-shadow: 0 0 0 0 rgba(212, 195, 163, 0);
+      }
+    }
+  </style>
+</head>
+
+<body class="bg-zafiro-light font-sans text-gray-800 antialiased selection:bg-zafiro-sand selection:text-zafiro-navy">
+
+  <header class="bg-zafiro-navy w-full fixed top-0 z-50 shadow-md">
+    <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
+      <div class="text-white font-serif text-2xl tracking-widest uppercase">
+        Zafiro <span
+          class="font-sans font-light text-sm tracking-normal capitalize text-zafiro-sand ml-2">Innovación</span>
+      </div>
+      <nav class="hidden md:flex space-x-8 text-sm text-white font-light tracking-wide">
+        <a href="#" class="hover:text-zafiro-sand transition-colors">El Cóctel</a>
+        <a href="#" class="hover:text-zafiro-sand transition-colors">La Historia</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="relative w-full h-screen bg-gray-900 flex items-center justify-center pt-20 overflow-hidden">
+
+    <div class="absolute inset-0 opacity-40 bg-cover bg-center"
+      style="background-image: url('public/img/cocktail-hero.jpg'); filter: blur(20px);"></div>
+
+    <div class="relative z-10 max-w-lg w-full px-4">
+      <img src="public/img/cocktail-hero.jpg" alt="Cóctel Zafiro"
+        class="w-full h-auto rounded-xl shadow-2xl border border-white/10" />
+
+      <button onclick="mostrarInfo('La Espuma', 'Espuma vegana de aquafaba con el logo Zafiro impreso.')"
+        class="hotspot-pulse absolute w-6 h-6 bg-zafiro-sand rounded-full border-2 border-white cursor-pointer transition-transform hover:scale-110"
+        style="top: 30%; left: 50%; transform: translate(-50%, -50%);"></button>
+
+      <button onclick="mostrarInfo('La Base', 'Un vibrante contraste verde a base de Midori y cítricos.')"
+        class="hotspot-pulse absolute w-6 h-6 bg-zafiro-sand rounded-full border-2 border-white cursor-pointer transition-transform hover:scale-110"
+        style="top: 70%; left: 50%; transform: translate(-50%, -50%);"></button>
+    </div>
+
+    <div id="info-box"
+      class="absolute bottom-10 left-1/2 transform -translate-x-1/2 bg-white/95 backdrop-blur px-8 py-6 rounded shadow-2xl w-[90%] max-w-md text-center opacity-0 pointer-events-none transition-all duration-300 translate-y-4 border-t-4 border-zafiro-navy">
+      <h3 id="info-title" class="font-serif text-2xl text-zafiro-navy mb-2">Título</h3>
+      <p id="info-text" class="font-light text-gray-600 text-sm leading-relaxed">Descripción del ingrediente.</p>
+      <button onclick="cerrarInfo()"
+        class="mt-4 text-xs font-bold text-zafiro-sand uppercase tracking-wider hover:text-zafiro-navy">Cerrar</button>
+    </div>
+
+  </section>
+
+  <script>
+    const infoBox = document.getElementById('info-box');
+    const titleEl = document.getElementById('info-title');
+    const textEl = document.getElementById('info-text');
+
+    function mostrarInfo(titulo, texto) {
+      titleEl.innerText = titulo;
+      textEl.innerText = texto;
+      infoBox.classList.remove('opacity-0', 'pointer-events-none', 'translate-y-4');
+    }
+
+    function cerrarInfo() {
+      infoBox.classList.add('opacity-0', 'pointer-events-none', 'translate-y-4');
+    }
+  </script>
+
+</body>
+
+</html>
