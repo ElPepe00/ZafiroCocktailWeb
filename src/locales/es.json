@@ -1,5 +1,5 @@
 {
-  "title": "Zafiro Hotels | Cóctel Corazón",
+  "title": "Zafiro Hotels | Cóctel Orbis Insulae",
   "nav_ingredients": "Ingredientes",
   "nav_decoration": "Decoración",
   "nav_ice": "Hielo",
@@ -14,10 +14,10 @@
   "hotspot3_desc": "La mezcla vibrante de melón y cítricos que define el sabor.",
   "info_element": "Elemento",
   "info_close": "Cerrar",
-  "hero_title_bg": "CORAZÓN",
+  "hero_title_bg": "ORBIS INSULAE",
   "hero_subtitle": "Cóctel de Autor",
-  "hero_title": "Corazón",
-  "recipe_title": "Receta exclusiva del Cóctel Corazón",
+  "hero_title": "Orbis Insulae",
+  "recipe_title": "Receta exclusiva del Cóctel Orbis Insulae",
   "recipe_desc": "Una combinación única de licores artesanales y zumos naturales de las Islas Baleares. El Gin Balearic, alma de este cóctel, se combina con flor de saúco, pepino fresco y Blue Curaçao para crear una experiencia que huele y sabe a Mallorca.",
   "recipe_item1": "<span class=\"font-medium text-white\">50 ml</span> de Ginebra Balearic",
   "recipe_item2": "<span class=\"font-medium text-white\">50 ml</span> de Licor de flor de saúco",
@@ -71,8 +71,8 @@
   "step6_c": "Con sirope ácido, decora el borde parcial de la copa.",
   "step6_note": "Esto crea un contraste visual y de sabor entre dulce y ácido.",
   "video_title": "Vídeo de Autor",
-  "video_subtitle": "El arte detrás del Cóctel Corazón",
+  "video_subtitle": "El arte detrás del Cóctel Orbis Insulae",
   "video_desc": "Contenido próximamente",
-  "video_text1": "Observa el proceso completo de elaboración del Cóctel Corazón: técnica, precisión y el toque final que lo convierte en una experiencia única.",
+  "video_text1": "Observa el proceso completo de elaboración del Cóctel Orbis Insulae: técnica, precisión y el toque final que lo convierte en una experiencia única.",
   "footer_copy": "&copy; Zafiro Hotels Limited 2026, Todos los derechos reservados."
 }

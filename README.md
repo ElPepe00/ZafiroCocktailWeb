@@ -1,6 +1,6 @@
-# Zafiro Cocktail Web - Cóctel Corazón
+# Zafiro Cocktail Web - Cóctel Orbis Insulae
 
-Una experiencia web premium e interactiva diseñada para presentar el exclusivo **Cóctel Corazón** de Zafiro Hotels. Esta landing page ha sido desarrollada buscando la máxima elegancia visual, fluidez en las animaciones y una optimización perfecta para dispositivos móviles (ideal para ser accedida mediante códigos QR en establecimientos).
+Una experiencia web premium e interactiva diseñada para presentar el exclusivo **Cóctel Orbis Insulae** de Zafiro Hotels. Esta landing page ha sido desarrollada buscando la máxima elegancia visual, fluidez en las animaciones y una optimización perfecta para dispositivos móviles (ideal para ser accedida mediante códigos QR en establecimientos).
 
 ## 🌟 Características Principales
 

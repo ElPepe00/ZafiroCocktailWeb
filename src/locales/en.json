@@ -1,5 +1,5 @@
 {
-  "title": "Zafiro Hotels | Corazón Cocktail",
+  "title": "Zafiro Hotels | Orbis Insulae Cocktail",
   "nav_ingredients": "Ingredients",
   "nav_decoration": "Decoration",
   "nav_ice": "Ice",
@@ -14,10 +14,10 @@
   "hotspot3_desc": "The vibrant blend of melon and citrus that defines the flavor.",
   "info_element": "Element",
   "info_close": "Close",
-  "hero_title_bg": "CORAZÓN",
+  "hero_title_bg": "ORBIS INSULAE",
   "hero_subtitle": "Signature Cocktail",
-  "hero_title": "Corazón",
-  "recipe_title": "Exclusive Corazón Cocktail Recipe",
+  "hero_title": "Orbis Insulae",
+  "recipe_title": "Exclusive Orbis Insulae Cocktail Recipe",
   "recipe_desc": "A unique combination of artisanal liqueurs and natural juices from the Balearic Islands. Gin Balearic, the soul of this cocktail, is combined with elderflower, fresh cucumber, and Blue Curaçao to create an experience that smells and tastes like Mallorca.",
   "recipe_item1": "<span class=\"font-medium text-white\">50 ml</span> of Balearic Gin",
   "recipe_item2": "<span class=\"font-medium text-white\">50 ml</span> of Elderflower liqueur",
@@ -71,8 +71,8 @@
   "step6_c": "With acid syrup, decorate the partial rim of the glass.",
   "step6_note": "This creates a visual and flavour contrast between sweet and sour.",
   "video_title": "Signature Video",
-  "video_subtitle": "The art behind the Corazón Cocktail",
+  "video_subtitle": "The art behind the Orbis Insulae Cocktail",
   "video_desc": "Content coming soon",
-  "video_text1": "Watch the full preparation of the Corazón Cocktail: technique, precision and the final touch that makes it a one-of-a-kind experience.",
+  "video_text1": "Watch the full preparation of the Orbis Insulae Cocktail: technique, precision and the final touch that makes it a one-of-a-kind experience.",
   "footer_copy": "&copy; Zafiro Hotels Limited 2026, All rights reserved."
 }
