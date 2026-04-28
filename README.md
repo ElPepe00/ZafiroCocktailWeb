@@ -17,7 +17,7 @@ Una experiencia web premium e interactiva diseñada para presentar el exclusivo 
 -   **Core:** HTML5 Semántico y JavaScript Moderno (ES6+).
 -   **Estilos:** [Tailwind CSS 3](https://tailwindcss.com/) - Utilizado para la estructura responsive y el diseño base.
 -   **Tipografía:** Integración de Google Fonts (*Playfair Display* para elegancia clásica y *Lato* para legibilidad moderna).
--   **Despliegue:** Configurado y optimizado para [Netlify](https://www.netlify.com/).
+-   **Despliegue:** Optimizado para [Vercel](https://vercel.com/) (Zero Config).
 
 ## 📁 Estructura del Proyecto
 
@@ -34,7 +34,7 @@ zafiro-cocktail-web/
 ├── index.html              # Estructura principal y puntos de anclaje
 ├── tailwind.config.js      # Configuración de temas y colores corporativos
 ├── package.json            # Scripts y dependencias
-└── netlify.toml            # Configuración de despliegue
+└── vite.config.js          # Configuración del empaquetador Vite
 ```
 
 ## 🚀 Instalación y Desarrollo
